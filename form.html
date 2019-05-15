@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mock1ng's Final Project</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize/materialize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="red darken-2">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#home" class="brand-logo">Mock1ng</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#hire">Hire Me!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Navbar Collapsed -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#hire">Hire Me!</a></li>
+    </ul>
+
+    <!-- Services -->
+    <section id="services" class="services grey lighten-2 scrollspy">
+        <div class="container">
+            <div class="row center light">
+                <h3>My Services</h3>
+                <div class="col m4 s12">
+                    <div class="card-panel center">
+                        <i class="material-icons medium">desktop_windows</i>
+                        <h5>Web Development</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia officiis incidunt,
+                            assumenda quam iste quod voluptas amet animi. Ea error eum velit recusandae, dolor suscipit
+                            voluptates voluptatibus? Ut, optio placeat.</p>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="card-panel center">
+                        <i class="material-icons medium">developer_mode</i>
+                        <h5>Mobile Development</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia officiis incidunt,
+                            assumenda quam iste quod voluptas amet animi. Ea error eum velit recusandae, dolor suscipit
+                            voluptates voluptatibus? Ut, optio placeat.</p>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="card-panel center">
+                        <i class="material-icons medium">games</i>
+                        <h5>Game Development</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia officiis incidunt,
+                            assumenda quam iste quod voluptas amet animi. Ea error eum velit recusandae, dolor suscipit
+                            voluptates voluptatibus? Ut, optio placeat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- hire me -->
+    <section id="hire" class="hire grey lighten-2 scrollspy">
+        <div class="container">
+            <h3 class="center light">Hire Me!</h3>
+            <div class="row">
+                <!-- card -->
+                <div class="col m5 s12">
+                    <div class="card-panel red darken-2 white-text center">
+                        <i class="material-icons">email</i>
+                        <h5>Contact</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae sunt!
+                            Voluptate molestiae beatae, minus ipsa saepe.</p>
+                    </div>
+                    <ul class="collection with-header">
+                        <li class="collection-header">
+                            <h4>My Office</h4>
+                        </li>
+                        <li class="collection-item">J.One Building</li>
+                        <li class="collection-item">st. Otonom no. 23, Tangerang</li>
+                        <li class="collection-item">Banten</li>
+                    </ul>
+                </div>
+
+                <!-- form -->
+                <div class="col m7 s12">
+                    <form method="POST" action="https://formspree.io/bayuw1123@gmail.com">
+                        <div class="card-panel">
+                            <h5>Please Fill Out This Form</h5>
+                            <div class="input-field">
+                                <input id="name" type="text" name="nama" class="validate" autocomplete="off">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input id="email" type="email" name="_replyto" class="validate" autocomplete="off">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <input id="phone" type="number" name="nomor" class="validate" autocomplete="off">
+                                <label for="phone">Phone Number</label>
+                            </div>
+                            <div class="input-field">
+                                <input id="message" type="text" name="pesan" class="materialize-textarea">
+                                <label for="message">Message</label>
+                            </div>
+                            <button type="submit" class="btn red darken-2">Send!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Button -->
+    <section id="next">
+        <div class="center">
+            <a href="modals.html" class="waves-effect waves-light btn red darken-2"><i
+                    class="material-icons right">arrow_forward</i>Next</a>
+        </div>
+    </section>
+
+</body>
+
+<script src="js/jquery/jquery-3.4.1.js"></script>
+<script src="js/materialize/materialize.js"></script>
+<script src="js/script.js"></script>
+
+</html>
