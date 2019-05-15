@@ -20,16 +20,7 @@ const scroll = document.querySelectorAll('.scrollspy');
 M.ScrollSpy.init(scroll);
 
 // modals
-// const modal = document.querySelectorAll('.modal');
-// M.Modal.init(modal);
-
 $(document).ready(function () {
-    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
     $('#modal1').modal();
+    $('#modal1').modal('open');
 });
-
-$(document).ready(function () {
-    $('#Modal1').foundation('reveal', 'open')
-});
-
-$('#modal1').modal('open');
